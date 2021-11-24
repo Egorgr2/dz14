@@ -1,0 +1,398 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.Gold{
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FED136;
+    text-decoration: none;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FED136;
+    margin-right: 25px;
+    margin-top: 35px;
+}
+
+
+
+.service{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 35px;
+    color: #222222;
+}
+
+
+
+
+.E{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    left: 70px;
+    top: 18px;
+    margin-top: 30px;
+}
+
+
+
+.lot{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+
+
+.E-Commerce{
+    position: relative;
+    width: 260px;
+    text-align: center;
+    transition: 3s;
+}
+
+
+
+.Ei{
+    width: 38.55px;
+    height: 38.09px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.resp{
+    position: relative;
+    width: 260px;
+    text-align: center;
+    transition: 3s;
+}
+
+
+
+
+
+.r{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    left: 50px;
+    top: 18px;
+    margin-top: 30px;
+}
+
+
+
+
+.ri{
+    margin-bottom: 20px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+
+.web{
+    position: relative;
+    width: 260px;
+    text-align: center;
+    transition: 3s;
+}
+
+
+.wi{
+    margin-bottom: 20px;
+}
+
+
+.w{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    left: 70px;
+    top: 18px;
+    margin-top: 30px;
+}
+
+
+
+
+.web:hover{
+    transform: rotate(360deg);
+    transition: 4s;
+}
+
+
+
+
+.E-Commerce:hover{
+    transform: rotate(360deg);
+    transition: 4s;
+}
+
+
+.resp:hover{
+    transform: rotate(360deg);
+    transition: 4s;
+}
+
+
+.back{
+    width: 1250px;
+    height: 679px;
+    background: #222222;
+    position: relative;
+}
+
+
+
+.nam{
+    width: 455px;
+    height: 50px;
+}
+
+
+
+
+.email{
+    width: 455px;
+    height: 50px;
+    top: 233.333334px;
+}
+
+
+
+
+
+.sub{
+    width: 455px;
+    height: 50px;
+    top: 350px;
+}
+
+
+.pinput{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+
+.mes{
+    height: 212px;
+    width: 458px;
+    left: 500px;
+    top: 150px;
+}
+
+
+
+input{
+    color: #BBBBBB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    position: absolute;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+
+
+.send{
+    position: absolute;
+    width: 242px;
+    height: 68px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FED136;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    left: 515px;
+    top: 450px;
+}
+
+
+.send:hover{
+    background-color: #ecc949;
+    color: #dbdbdb;
+}
+
+
+
+
+
+.send::before{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+
+
+
+
+.send::after{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+
+
+
+
+.batton{
+    height: 68px;
+    width: 242px;
+}
+
+
+
+.rad{
+    position: absolute;
+    left: 555px;
+    top: 525px;
+    display: none;
+}
+
+
+
+
+
+.fake-check{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid blue;
+    position: absolute;
+    left: 620px;
+    top: 525px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+
+
+
+.fake-check:before{
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: transparent;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.rad:checked~.fake-check:before{
+    background-color: blue;
+}
+
+
+
+
+
+.dar{
+    position: absolute;
+    left: 605px;
+    top: 525px;
+    display: none;
+}
+
+
+
+
+
+.fake-chec{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid grey;
+    position: absolute;
+    left: 670px;
+    top: 525px;
+    background-color: #fff;
+}
+
+
+
+
+.fake-chec:before{
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(./checkmark.png) center no-repeat;
+    visibility: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.dar:checked~.fake-chec:before{
+    visibility: visible;
+}
